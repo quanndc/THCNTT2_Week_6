@@ -1,0 +1,58 @@
+#container {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#is-new-cap {
+  color: grey;
+}
+
+#contents {
+  width: 80%;
+  height: 80%;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#new-card {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 25%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 8px;
+}
+
+#new-photo-holder {
+  width: 25%;
+  height: 100%;
+}
+
+#new-photo-holder>img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+
+#new-contents {
+  width: 70%;
+  height: fit-content;
+  /* padding: 10px 0; */
+}
+
+#new-title {
+  width: 100%;
+}
+
+#new-title>h2 {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
